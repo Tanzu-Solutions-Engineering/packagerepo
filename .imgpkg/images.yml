@@ -30,6 +30,13 @@ images:
           url: ghcr.io/cdelashmutt-pivotal/le-certmanager-package:1.0.0
   image: ghcr.io/cdelashmutt-pivotal/le-certmanager-package@sha256:57309847ecbf5b3fc838e0a421681cf9e77c2b909e996dec0b17ba377868bd4c
 - annotations:
+    kbld.carvel.dev/id: ghcr.io/cdelashmutt-pivotal/le-certmanager-package:2.0.0
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: 2.0.0
+          url: ghcr.io/cdelashmutt-pivotal/le-certmanager-package:2.0.0
+  image: ghcr.io/cdelashmutt-pivotal/le-certmanager-package@sha256:67a042bd3da5d6a70f9bd6b0ffe7dccfe8f4ffdc5b53fcf1fabbdf30128aa44b
+- annotations:
     kbld.carvel.dev/id: ghcr.io/cdelashmutt-pivotal/metacontroller-package:v2.0.12.0
     kbld.carvel.dev/origins: |
       - resolved:
@@ -43,4 +50,11 @@ images:
           tag: 0.0.1
           url: ghcr.io/cdelashmutt-pivotal/metallb-package:0.0.1
   image: ghcr.io/cdelashmutt-pivotal/metallb-package@sha256:32f56d0fcc43d00e9c8abcbf85fa9724470f9b4e244082b68832864a587dae35
+- annotations:
+    kbld.carvel.dev/id: ghcr.io/tanzu-solutions-engineering/trainingportal-janitor-package:v0.0.1
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: v0.0.1
+          url: ghcr.io/tanzu-solutions-engineering/trainingportal-janitor-package:v0.0.1
+  image: ghcr.io/tanzu-solutions-engineering/trainingportal-janitor-package@sha256:0cd486c7c856e030ea189b4088e6c0e2715015a95abf0fc4a2481434ee0d947c
 kind: ImagesLock
